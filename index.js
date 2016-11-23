@@ -160,11 +160,7 @@ function createSceneAction() {
     var mustRequireItems = chance.d100() <= 10;
     var mustRequireAttributeValue = chance.d100() <= 5;
     var requireItems = [];
-    var requireAttributeValue = {
-        "strength": null,
-        "agility": null,
-        "intelligence": null
-    };
+    var requireAttributeValue = null;
 
     if(mustRequireItems) {
         requireItems.push({
@@ -176,6 +172,12 @@ function createSceneAction() {
     if(mustRequireAttributeValue) {
         var attribute = chance.pickone(["strength", "agility", "intelligence"]);
         var requiredValue = chance.d10();
+
+        requireAttributeValue = {
+            "strength": null,
+            "agility": null,
+            "intelligence": null
+        };
 
         requireAttributeValue[attribute] = requiredValue;
     }
