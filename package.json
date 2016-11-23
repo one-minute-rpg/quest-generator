@@ -1,0 +1,22 @@
+{
+  "name": "omr-quest-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/one-minute-rpg/quest-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/one-minute-rpg/quest-generator/issues"
+  },
+  "homepage": "https://github.com/one-minute-rpg/quest-generator#readme",
+  "dependencies": {
+    "chance": "^1.0.4"
+  }
+}
