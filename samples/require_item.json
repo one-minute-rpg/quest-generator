@@ -16,12 +16,12 @@
         },
         "items": [
             {
-                "item_id": "af7493641c2e20a9d91656374984a79a0571a848",
-                "quantity": 4
+                "item_id": "70d06b247459d2662a43d7a6c7758a3e8fe9c9ab",
+                "quantity": 1
             },
             {
-                "item_id": "af7493641c2e20a9d91656374984a79a0571a848",
-                "quantity": 5
+                "item_id": "e71354963d57fadba25697c82fda47ac1ce48bad",
+                "quantity": 4
             }
         ]
     },
@@ -29,8 +29,8 @@
         {
             "item_id": "af7493641c2e20a9d91656374984a79a0571a848",
             "name": {
-                "pt_br": "Cikic esupo setsigko.",
-                "en_us": "Medsol ho saoga."
+                "pt_br": "Poção de Cura",
+                "en_us": "Healing Potion"
             },
             "description": {
                 "pt_br": "Ohor ih buf fa wojiv cufak ire cota tih fifibeh hetas jakwuje socunti bitezup tus da.",
@@ -42,21 +42,21 @@
         {
             "item_id": "70d06b247459d2662a43d7a6c7758a3e8fe9c9ab",
             "name": {
-                "pt_br": "Foj kaob vak.",
-                "en_us": "Buknolra onolasde gicta."
+                "pt_br": "Chave de Prata",
+                "en_us": "Silver Key"
             },
             "description": {
                 "pt_br": "Dide hona mecogureg sik leded kala vabuj miv fanzadno bebwo bi mape bu undah pemzeded.",
                 "en_us": "Vuvi metocus ja dare jespa vegaw ropjek huwur coezi ma zastid gujdifbuk."
             },
-            "type": "INVENTORY",
+            "type": "QUEST",
             "events": []
         },
         {
             "item_id": "e71354963d57fadba25697c82fda47ac1ce48bad",
             "name": {
-                "pt_br": "Kapoza icza jigo.",
-                "en_us": "He duj bakbadahi."
+                "pt_br": "Moeda de Ouro",
+                "en_us": "Golden Coin"
             },
             "description": {
                 "pt_br": "Bovsag wola radlar rilma tul sibronvoh wuvtali hezi it lumi vu ana badu rigbiji de jeto edkulga sodogloz.",
@@ -80,8 +80,8 @@
             "actions": [
                 {
                     "text": {
-                        "pt_br": "Re sahapi ti.",
-                        "en_us": "Lowewpiw den wuwekwut."
+                        "pt_br": "Ação Normal",
+                        "en_us": "Normal Action"
                     },
                     "require_items": [],
                     "require_attribute_value": null,
@@ -89,22 +89,27 @@
                 },
                 {
                     "text": {
-                        "pt_br": "Zubroduja piptoro opo.",
-                        "en_us": "Fuhcituk hokwot gasecvu."
+                        "pt_br": "1 Chave de Prata",
+                        "en_us": "1 Silver Key"
                     },
-                    "require_items": [],
+                    "require_items": [
+                        {
+                            "item_id": "70d06b247459d2662a43d7a6c7758a3e8fe9c9ab",
+                            "quantity": 1
+                        }
+                    ],
                     "require_attribute_value": null,
                     "events": []
                 },
                 {
                     "text": {
-                        "pt_br": "Ehali womuj jol.",
-                        "en_us": "Zeuho zu cinah."
+                        "pt_br": "6 Moedas",
+                        "en_us": "1 Coins"
                     },
                     "require_items": [
                         {
                             "item_id": "e71354963d57fadba25697c82fda47ac1ce48bad",
-                            "quantity": 2
+                            "quantity": 6
                         }
                     ],
                     "require_attribute_value": null,
