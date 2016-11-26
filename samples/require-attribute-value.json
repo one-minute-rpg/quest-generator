@@ -31,11 +31,33 @@
             "actions": [
                 {
                     "text": {
-                        "pt_br": "Lelpo ga rutuwic.",
-                        "en_us": "Loame vaed wat."
+                        "pt_br": "Ação Normal",
+                        "en_us": "Normal Action"
                     },
                     "require_items": [],
                     "require_attribute_value": null,
+                    "events": []
+                },
+                {
+                    "text": {
+                        "pt_br": "5 + Agilidade",
+                        "en_us": "5 + Agility"
+                    },
+                    "require_items": [],
+                    "require_attribute_value": {
+                        "agility": 5
+                    },
+                    "events": []
+                },
+                {
+                    "text": {
+                        "pt_br": "5 + Força",
+                        "en_us": "5 + Strength"
+                    },
+                    "require_items": [],
+                    "require_attribute_value": {
+                        "strength": 5
+                    },
                     "events": []
                 }
             ],
