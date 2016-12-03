@@ -1,12 +1,8 @@
 {
-    "title": {
-        "pt_br": "Poboeh naredpu bekevav su.",
-        "en_us": "Wover defmi iveno wupfe."
-    },
-    "description": {
-        "pt_br": "Il iniriska se torefce zetsesul lengu gi wazjebdaw hitibuid nowlaabe jilica de moznu ha. Jehpenob jobtimca zuhonep ici foivaisu wappi mu rigaje lukhu gegewcuf cas ova.",
-        "en_us": "Bittoso jut tutocuj cuvmejtor araacoike imta owdom fawtiih livgew ka cagom uhkav beag. Onbo luehozeh zeduidi nobekpe mannoten rof hi jabcalec jumwobzoh dudjibet eho wes."
-    },
+    "quest_id": "158ae7c7-f7ef-5f84-bc27-011cb51b6eaf",
+    "language": "en_us",
+    "title": "Wover defmi iveno wupfe.",
+    "description": "Bittoso jut tutocuj cuvmejtor araacoike imta owdom fawtiih livgew ka cagom uhkav beag. Onbo luehozeh zeduidi nobekpe mannoten rof hi jabcalec jumwobzoh dudjibet eho wes.",
     "hero": {
         "attributes": {
             "health": 1,
@@ -20,29 +16,17 @@
     "scenes": [
         {
             "scene_id": "e49e56010cc352b19043d059b94ff686652e6a56",
-            "title": {
-                "pt_br": "Mu pirwelwe fublo.",
-                "en_us": "Na behvo robufiheh."
-            },
-            "text": {
-                "pt_br": "Epajeban deoj telere rec ohlilota wenzato alesi irehavaba motad riwe gaf edag pokjeiv kobpavkoz. Sas zofagun fufuozo apvakda ejisoj hahari mibecti eb copenu hohned ikeobouhi cupatoc. Itmoj zajod uv appep polsi jadmu bapuguh avuol ti nabpet ohgujif denikot ik. Akjaup bahtu zecec nelzu hesco se rogowimo evuve ini jozer je wiahmuw. Adpe ceh acvaigo mu fes opneaf uv catemomos beuwhov na bokalmo dilruv etge gu roavi hefaetu.",
-                "en_us": "Fo nelufake uglefumu dihrunzur affu wocpok ikneig vatpop ac welceaz zetnu nut. Fek zi tozuwfol rosid cec pat uki uvetotcis gujil ak epozimag bufudes. Moca wefaget nag oho sic lizafig bo lodjav tebebsuf le miwhij awe. Carop em mi dirnidwek ligji ta ha nuc dilbu co dufevik gitvoluz ge aji. Nabuv bohonlo hob li irgarre loge ti kumoga powzuvat ge gogvi wiwwa vimodca wophe."
-            },
+            "title": "Na behvo robufiheh.",
+            "text": "Fo nelufake uglefumu dihrunzur affu wocpok ikneig vatpop ac welceaz zetnu nut. Fek zi tozuwfol rosid cec pat uki uvetotcis gujil ak epozimag bufudes. Moca wefaget nag oho sic lizafig bo lodjav tebebsuf le miwhij awe. Carop em mi dirnidwek ligji ta ha nuc dilbu co dufevik gitvoluz ge aji. Nabuv bohonlo hob li irgarre loge ti kumoga powzuvat ge gogvi wiwwa vimodca wophe.",
             "actions": [
                 {
-                    "text": {
-                        "pt_br": "Ação Normal",
-                        "en_us": "Normal Action"
-                    },
+                    "text": "Normal Action",
                     "require_items": [],
                     "require_attribute_value": null,
                     "events": []
                 },
                 {
-                    "text": {
-                        "pt_br": "5 + Agilidade",
-                        "en_us": "5 + Agility"
-                    },
+                    "text": "5 + Agility",
                     "require_items": [],
                     "require_attribute_value": {
                         "agility": 5
@@ -50,10 +34,7 @@
                     "events": []
                 },
                 {
-                    "text": {
-                        "pt_br": "5 + Força",
-                        "en_us": "5 + Strength"
-                    },
+                    "text": "5 + Strength",
                     "require_items": [],
                     "require_attribute_value": {
                         "strength": 5

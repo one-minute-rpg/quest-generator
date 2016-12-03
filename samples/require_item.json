@@ -1,12 +1,8 @@
 {
-    "title": {
-        "pt_br": "Jihud rezo eladevdag firaz.",
-        "en_us": "Bow gosneeb ab leduguduk."
-    },
-    "description": {
-        "pt_br": "Cobocopov domkup kigce gok seb hoj witu koofun na lu lukisihuv gazvoglet zaluji viunwo eta puaz ugzuwi. Huvegim fingu ru foop zi cerol ugoiwi wi tal ehekobur boto bike.",
-        "en_us": "Vav bolajun lu et civgobbav coderut faj kajkum keruip hufguswen curupu oboka ule odo osofep we go. Ti vodpahih luhgiw ga pob es junidba paec fo woh majefus no mito rewuf nufozdam."
-    },
+    "quest_id": "158ae7c7-f7ef-5f84-bc27-011cb51b6eaf",
+    "language": "en_us",
+    "title": "Bow gosneeb ab leduguduk.",
+    "description": "Vav bolajun lu et civgobbav coderut faj kajkum keruip hufguswen curupu oboka ule odo osofep we go. Ti vodpahih luhgiw ga pob es junidba paec fo woh majefus no mito rewuf nufozdam.",
     "hero": {
         "attributes": {
             "health": 3,
@@ -28,40 +24,22 @@
     "items": [
         {
             "item_id": "af7493641c2e20a9d91656374984a79a0571a848",
-            "name": {
-                "pt_br": "Poção de Cura",
-                "en_us": "Healing Potion"
-            },
-            "description": {
-                "pt_br": "Ohor ih buf fa wojiv cufak ire cota tih fifibeh hetas jakwuje socunti bitezup tus da.",
-                "en_us": "Vamki edo so weknu fu raajimuf pa ur nolhabpi jimoko za hiccewer fare fatuhi rapo mudem coz zavum."
-            },
+            "name": "Healing Potion",
+            "description": "Vamki edo so weknu fu raajimuf pa ur nolhabpi jimoko za hiccewer fare fatuhi rapo mudem coz zavum.",
             "type": "INVENTORY",
             "events": []
         },
         {
             "item_id": "70d06b247459d2662a43d7a6c7758a3e8fe9c9ab",
-            "name": {
-                "pt_br": "Chave de Prata",
-                "en_us": "Silver Key"
-            },
-            "description": {
-                "pt_br": "Dide hona mecogureg sik leded kala vabuj miv fanzadno bebwo bi mape bu undah pemzeded.",
-                "en_us": "Vuvi metocus ja dare jespa vegaw ropjek huwur coezi ma zastid gujdifbuk."
-            },
+            "name": "Silver Key",
+            "description": "Vuvi metocus ja dare jespa vegaw ropjek huwur coezi ma zastid gujdifbuk.",
             "type": "QUEST",
             "events": []
         },
         {
             "item_id": "e71354963d57fadba25697c82fda47ac1ce48bad",
-            "name": {
-                "pt_br": "Moeda de Ouro",
-                "en_us": "Golden Coin"
-            },
-            "description": {
-                "pt_br": "Bovsag wola radlar rilma tul sibronvoh wuvtali hezi it lumi vu ana badu rigbiji de jeto edkulga sodogloz.",
-                "en_us": "Dofbaz huk paji abe cuzas zek ufuf oni petje ludoswi kegow eceuduze."
-            },
+            "name": "Golden Coin",
+            "description": "Dofbaz huk paji abe cuzas zek ufuf oni petje ludoswi kegow eceuduze.",
             "type": "QUEST",
             "events": []
         }
@@ -69,29 +47,17 @@
     "scenes": [
         {
             "scene_id": "14ffff792a862e3cb02c223f2900509f0d73c7af",
-            "title": {
-                "pt_br": "Tazu tibnumam isica.",
-                "en_us": "Pac nahbu fovafe."
-            },
-            "text": {
-                "pt_br": "Cehari cena va can ebi sij azez su go sasu nif culve hoowa me koev. Zilom ce seb fo bieku bot obahjad bulze sorbek okcagva ma bi ju morjil rar dizbiz gacesbi evcecop. Nueto uz sel fopun jesu lorofe hagu du nehvion kamufaj kokazoga fobhel veohe. Olucole po ra ewozumci necoppa larnissow fiwicufim gohdovza ru ewucus ebfob apijus siwo zegu lekda poj pol bugcuot. Pobogizi cuolcap kusdugog ozewis alo jupnifen imjushor fov gohju lek rinje ujepof.",
-                "en_us": "Togeop dicfupo an sufav nagisaz kacib habic unufubbul kubmo uzodimo bemuup husab webesil ehulas pag. Man diwci tuc ino codli ezu ar luuw sakasez pukeoko kenagogi co kifo roli mepdowuw. Tevbiewo dubhifsur rinocig zu jahoc ges toriipu zasnogi zaju co upko beulpe jindo omuniroz ac. Rop ta ik joor zupwu cenam izpin voepri uj vo hezow soc no jeg dewi. Virep fa te hawifpiz peh ubajoguc mehov kigezus uhoeg sojo lemapo zol voctefoj soen."
-            },
+            "title": "Pac nahbu fovafe.",
+            "text": "Togeop dicfupo an sufav nagisaz kacib habic unufubbul kubmo uzodimo bemuup husab webesil ehulas pag. Man diwci tuc ino codli ezu ar luuw sakasez pukeoko kenagogi co kifo roli mepdowuw. Tevbiewo dubhifsur rinocig zu jahoc ges toriipu zasnogi zaju co upko beulpe jindo omuniroz ac. Rop ta ik joor zupwu cenam izpin voepri uj vo hezow soc no jeg dewi. Virep fa te hawifpiz peh ubajoguc mehov kigezus uhoeg sojo lemapo zol voctefoj soen.",
             "actions": [
                 {
-                    "text": {
-                        "pt_br": "Ação Normal",
-                        "en_us": "Normal Action"
-                    },
+                    "text": "Normal Action",
                     "require_items": [],
                     "require_attribute_value": null,
                     "events": []
                 },
                 {
-                    "text": {
-                        "pt_br": "1 Chave de Prata",
-                        "en_us": "1 Silver Key"
-                    },
+                    "text": "1 Silver Key",
                     "require_items": [
                         {
                             "item_id": "70d06b247459d2662a43d7a6c7758a3e8fe9c9ab",
@@ -102,10 +68,7 @@
                     "events": []
                 },
                 {
-                    "text": {
-                        "pt_br": "6 Moedas",
-                        "en_us": "1 Coins"
-                    },
+                    "text": "1 Coins",
                     "require_items": [
                         {
                             "item_id": "e71354963d57fadba25697c82fda47ac1ce48bad",

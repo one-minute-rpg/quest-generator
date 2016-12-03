@@ -52,14 +52,10 @@ function buildQuest() {
 
 function createQuestBase() {
     return {
-        title: {
-            pt_br: chance.sentence({ words: 4 }),
-            en_us: chance.sentence({ words: 4 })
-        },
-        description: {
-            pt_br: chance.paragraph({ sentences: 2 }),
-            en_us: chance.paragraph({ sentences: 2 })
-        },
+        quest_id: chance.guid(),
+        language: "en_us",
+        title: chance.sentence({ words: 4 }),
+        description: chance.paragraph({ sentences: 2 }),
         hero: {},
         items: {},
         scenes: []
@@ -79,14 +75,8 @@ function createItems() {
 function createItem() {
     return {
         item_id: generateId(),
-        name: {
-            pt_br: chance.sentence({ words: 3 }),
-            en_us: chance.sentence({ words: 3 })
-        },
-        description: {
-            pt_br: chance.paragraph({ sentences: 1 }),
-            en_us: chance.paragraph({ sentences: 1 })
-        },
+        name: chance.sentence({ words: 3 }),
+        description: chance.paragraph({ sentences: 1 }),
         type: chance.pickone(['QUEST', 'INVENTORY']),
         events: []
     };
@@ -131,14 +121,8 @@ function createScenes() {
 function createScene() {
     return {
         "scene_id": generateId(),
-        "title": {
-            "pt_br": chance.sentence({ words: 3 }),
-            "en_us": chance.sentence({ words: 3 })
-        },
-        "text": {
-            "pt_br": chance.paragraph({ sentences: 5 }),
-            "en_us": chance.paragraph({ sentences: 5 })
-        },
+        "title": chance.sentence({ words: 3 }),
+        "text": chance.paragraph({ sentences: 5 }),
         "actions": createSceneActions(),
         "on_die_events": [],
         "type": "DECISION"
@@ -183,10 +167,7 @@ function createSceneAction() {
     }
 
     return {
-        "text": {
-            "pt_br": chance.sentence({ words: 3 }),
-            "en_us": chance.sentence({ words: 3 })
-        },
+        "text": chance.sentence({ words: 3 }),
         "require_items": requireItems,
         "require_attribute_value": requireAttributeValue,
         "events": []

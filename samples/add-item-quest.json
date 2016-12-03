@@ -1,12 +1,8 @@
 {
-    "title": {
-        "pt_br": "Igukuvni ecbopbi bewog vahew.",
-        "en_us": "Zadis menuhu foosaho cibcaer."
-    },
-    "description": {
-        "pt_br": "Uva to mar jaaw lemuwapik ojvarbuk oso tiha jakpi cez hivnim buhorev miuti lucvuk. Zacike vo opkurgis bulmeropa buuke tob necilep om saaje ivo bobmozej te.",
-        "en_us": "Funzenva om vak gasacir tip iru ovec volgu felvebpub ejtuzo fajrur waoko sudpohot rulji merifge kik. Niojobob wefpih sihgeter rowwaw gav mi vibdod ak akkocpuj ojzodeju wuw gu nafwejba poleal azipe vud jarzi lebod."
-    },
+    "quest_id": "158ae7c7-f7ef-5f84-bc27-011cb51b6eaf",
+    "language": "en_us",
+    "title": "Zadis menuhu foosaho cibcaer.",
+    "description": "Funzenva om vak gasacir tip iru ovec volgu felvebpub ejtuzo fajrur waoko sudpohot rulji merifge kik. Niojobob wefpih sihgeter rowwaw gav mi vibdod ak akkocpuj ojzodeju wuw gu nafwejba poleal azipe vud jarzi lebod.",
     "hero": {
         "attributes": {
             "health": 9,
@@ -19,14 +15,8 @@
     "items": [
         {
             "item_id": "8ae29e6040d50ba23b504782e63a98147b2b25a6",
-            "name": {
-                "pt_br": "Chave de Prata",
-                "en_us": "Silver Key"
-            },
-            "description": {
-                "pt_br": "Vuza buc ipo ozi odediro inlofak far li ukebi kor toglomsuh ek patsoson mejit ecahah.",
-                "en_us": "Itvecud pozma ol fokfeeko laep mopcomew osohila fa zef ug vul megvudeh avonicah jotut solgibcug retfucan opetojhap."
-            },
+            "name": "Silver Key",
+            "description": "Itvecud pozma ol fokfeeko laep mopcomew osohila fa zef ug vul megvudeh avonicah jotut solgibcug retfucan opetojhap.",
             "type": "QUEST",
             "events": []
         }
@@ -34,20 +24,11 @@
     "scenes": [
         {
             "scene_id": "05fd24e965c68aa4b8bda12abdf1cc6ad951203d",
-            "title": {
-                "pt_br": "A Chave de Prata",
-                "en_us": "The Silver Key"
-            },
-            "text": {
-                "pt_br": "Etogitof akuko not wef juf sowetsa soctazbe ni oba meddin ma fidipfut robfic. Juwpu lijtu ef ugdohri cof fovvowcif ecwileh hug jemwib hi vaofipeg wurgik wi zelot utabi van nutbesij fav. Wevepu osu fiwkilzab awaw bibura ibijidu jeip puntoop guumiga jehlu davnonneh mabpapwo. Sev wetjez dujlipuw bagzelece algibok upsif famhe paken fine dijipfuf miz waz. Pa dajdumij safiizi rid ajhik mof segu zifogem ad nucgot roj wiajifib cejed top sivutap rog uri.",
-                "en_us": "Bizec faajwe jobu fokan hisir vomkaf get sa kose jejket luvej oguog zobfu. Came vokod ugik suvulow sog gawe iluoze zucetlac jacur ji ic go it. Otenuctip su ru wel ge baca comu zawansu evurim cuca sulvo jerkoclat kacat rohehaj. Higek enmuar edata dup ab apezedta ukoure ulpuren vu guca uc ik wacomno tumor nam re isahiaj nitabu. Usazoblef pibper do wonde we ki bijogwi ge fubonkij haw ko retiila dindoew papwa ivuzozoj."
-            },
+            "title": "The Silver Key",
+            "text": "Bizec faajwe jobu fokan hisir vomkaf get sa kose jejket luvej oguog zobfu. Came vokod ugik suvulow sog gawe iluoze zucetlac jacur ji ic go it. Otenuctip su ru wel ge baca comu zawansu evurim cuca sulvo jerkoclat kacat rohehaj. Higek enmuar edata dup ab apezedta ukoure ulpuren vu guca uc ik wacomno tumor nam re isahiaj nitabu. Usazoblef pibper do wonde we ki bijogwi ge fubonkij haw ko retiila dindoew papwa ivuzozoj.",
             "actions": [
                 {
-                    "text": {
-                        "pt_br": "Pegar Chave",
-                        "en_us": "TAke Key"
-                    },
+                    "text": "Take Key",
                     "require_items": [],
                     "require_attribute_value": null,
                     "events": [
@@ -55,10 +36,7 @@
                             "type": "ADD_ITEM",
                             "item_id": "8ae29e6040d50ba23b504782e63a98147b2b25a6",
                             "quantity": 1,
-                            "text": {
-                                "pt_br": "Você ganhou uma chave.",
-                                "en_us": "You get a key."
-                            }
+                            "text": "You get a key."
                         }
                     ]
                 }

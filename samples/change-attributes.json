@@ -1,12 +1,8 @@
 {
-    "title": {
-        "pt_br": "Ukujuk lo an gac.",
-        "en_us": "Fumup dil ovugepno ovesa."
-    },
-    "description": {
-        "pt_br": "Fi bi kopobvo wic lipki jumwu hiipo as wobogo jigur mage hufluk cuzzi kema kusmil raogo. Men casrugpe gajbuz hibhoap tojsivfo ubjud bedzo zesze fozhur bihda senolaliv fiwtilod za ulocifik rolus lofjo afuecha za.",
-        "en_us": "Vigiw gijwi honut atu savid ta rearo faok am zokwuh wicca vivmaazi janfenmig pekal muhwekif apaliev zipegov. Iv cuni ko ke pirca luocaudo hivezop wocivu waih dekuf lutehbec haew hegvi bakpeul wi."
-    },
+    "quest_id": "158ae7c7-f7ef-5f84-bc27-011cb51b6eaf",
+    "language": "en_us",
+    "title": "Fumup dil ovugepno ovesa.",
+    "description": "Vigiw gijwi honut atu savid ta rearo faok am zokwuh wicca vivmaazi janfenmig pekal muhwekif apaliev zipegov. Iv cuni ko ke pirca luocaudo hivezop wocivu waih dekuf lutehbec haew hegvi bakpeul wi.",
     "hero": {
         "attributes": {
             "health": 8,
@@ -20,20 +16,11 @@
     "scenes": [
         {
             "scene_id": "28f6f43c437a58d2a403a470036905fbbae5ceb8",
-            "title": {
-                "pt_br": "Alterando Atributos.",
-                "en_us": "Changing Attributes."
-            },
-            "text": {
-                "pt_br": "Kaecu jat cobo moosela uvoomi wukpucmin uwgup suasoreg jebisvem zuwirlas hem kiwavli ru ba. Ol li huc himegod ajeteutu jife mudjamni lu hegik zor emdehvi aza zufah gukodi gu tiltucta tu. Rotli juvkila sedemev jo mekahhij nareh alowas jakivor bizo kumobo mir tizcib cik heve tacula. Av win gabsut elovi uhmani rutpi lefpapo owwor ecrebju cujhuzlo une hefzapi mawa mos newgeni. Zage kudico kugiwin canca od gi fu boife hov etcer ramirges narnu.",
-                "en_us": "Ih betel obace buthu palifa co vew sonwijov zowvo jamvuplu ke tufuak. Borav cod butuj viopa zug lupaszu defrata gepimwaz havec rok lokekfig kut. La ladguje gi sefme giudu nerafmi uvu ofjujhul unpedgim veinven se juh kobabed zudhucer lom. Cawopa gujasvo ritec baocecis laba fup mujrufzu faf fih elo asepa ike okiga rudaoba uktac. Vibipeg farar oc voefoce vigi ec rizoma osadu mi erizewsa zes mu hiv san."
-            },
+            "title": "Changing Attributes.",
+            "text": "Ih betel obace buthu palifa co vew sonwijov zowvo jamvuplu ke tufuak. Borav cod butuj viopa zug lupaszu defrata gepimwaz havec rok lokekfig kut. La ladguje gi sefme giudu nerafmi uvu ofjujhul unpedgim veinven se juh kobabed zudhucer lom. Cawopa gujasvo ritec baocecis laba fup mujrufzu faf fih elo asepa ike okiga rudaoba uktac. Vibipeg farar oc voefoce vigi ec rizoma osadu mi erizewsa zes mu hiv san.",
             "actions": [
                 {
-                    "text": {
-                        "pt_br": "+3 de Vida.",
-                        "en_us": "+3 Health."
-                    },
+                    "text": "+3 Health.",
                     "require_items": [],
                     "require_attribute_value": null,
                     "events": [
@@ -41,18 +28,12 @@
                             "type": "CHANGE_ATTRIBUTE",
                             "attribute": "health",
                             "value": 3,
-                            "text": {
-                                "pt_br": "+3 de Vida.",
-                                "en_us": "+3 Health."
-                            }
+                            "text": "+3 Health."
                         }
                     ]
                 },
                 {
-                    "text": {
-                        "pt_br": "+1 de Força.",
-                        "en_us": "+1 Strength."
-                    },
+                    "text": "+1 Strength.",
                     "require_items": [],
                     "require_attribute_value": null,
                     "events": [
@@ -60,18 +41,12 @@
                             "type": "CHANGE_ATTRIBUTE",
                             "attribute": "strength",
                             "value": 1,
-                            "text": {
-                                "pt_br": "+1 de Força.",
-                                "en_us": "+1 Strength."
-                            }
+                            "text": "+1 Strength."
                         }
                     ]
                 },
                 {
-                    "text": {
-                        "pt_br": "+1 de Agilidade.",
-                        "en_us": "+1 Agility."
-                    },
+                    "text": "+1 Agility.",
                     "require_items": [],
                     "require_attribute_value": null,
                     "events": [
@@ -79,18 +54,12 @@
                             "type": "CHANGE_ATTRIBUTE",
                             "attribute": "agility",
                             "value": 1,
-                            "text": {
-                                "pt_br": "+1 de Agilidade.",
-                                "en_us": "+1 Agility."
-                            }
+                            "text": "+1 Agility."
                         }
                     ]
                 },
                 {
-                    "text": {
-                        "pt_br": "+1 de Inteligência.",
-                        "en_us": "+1 Intelligence."
-                    },
+                    "text": "+1 Intelligence.",
                     "require_items": [],
                     "require_attribute_value": null,
                     "events": [
@@ -98,10 +67,7 @@
                             "type": "CHANGE_ATTRIBUTE",
                             "attribute": "intelligence",
                             "value": 1,
-                            "text": {
-                                "pt_br": "+1 de Inteligência.",
-                                "en_us": "+1 Intelligence."
-                            }
+                            "text": "+1 Intelligence."
                         }
                     ]
                 }

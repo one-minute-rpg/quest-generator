@@ -1,12 +1,8 @@
 {
-    "title": {
-        "pt_br": "Uzdal do wulpid job.",
-        "en_us": "Kunolunul ur wo bahdo."
-    },
-    "description": {
-        "pt_br": "Ub libziwap fab nouteano vaphibso baolda azwirih avaajrin duzifugu soal jat we. Rafatik nit koacur panim izugem lu umohokca zik cirojav fuhtizle upmopvon inofovup je rava.",
-        "en_us": "Fivbol cez vaudlob zadsig heedo lub godme samow kutu tifi zefferoc iwto mosohito romopalaz. Ucso viojure durdu bucov vujuklu ope hukjikvor vegha wubnuwmiv hev umofinak fe bet zen."
-    },
+    "quest_id": "158ae7c7-f7ef-5f84-bc27-011cb51b6eaf",
+    "language": "en_us",
+    "title": "Kunolunul ur wo bahdo.",
+    "description": "Fivbol cez vaudlob zadsig heedo lub godme samow kutu tifi zefferoc iwto mosohito romopalaz. Ucso viojure durdu bucov vujuklu ope hukjikvor vegha wubnuwmiv hev umofinak fe bet zen.",
     "hero": {
         "attributes": {
             "health": 9,
@@ -20,20 +16,11 @@
     "scenes": [
         {
             "scene_id": "7ac0833854d08f247c850b3d7facc5faf19a3353",
-            "title": {
-                "pt_br": "Cena 1",
-                "en_us": "Scene 1"
-            },
-            "text": {
-                "pt_br": "Wolur anuruj rirvogo semfo alru ewiriwu wotope ifo huzur ki nofagpas va kanuci. Nurop ledehbez ko hoz dupculiv fisu mikrig lo ohde jenotfu gacbop pizez abaegohov vefruv. Dojcaw moko mif awtahab ote wojuneb tuema nededza nobto juevhi vaf wizip ij op komawri. Junwala bupmu tumablo pi gaf nerluf vi goheg evi epuuwowa amu gij. Ju pawahot megel honwees kaehvuz oc zughuzeb sofli dohuuka juru cabru ge.",
-                "en_us": "Jiz adilejud vubotgo anaruene febe momi woc uhuuk ga zelek ejeake tiraip fez lud itoca zi las. Cifoz puldihec fijeani motabifev dacpowutu mowi jiwjeko jiljaw el pohkiwuk ew ulova uza ruitu talad kac ovelo mimne. Vaizason ridefhuv gi jav ondikho dejok burweke woap su afi vuoni opuole odmuf ikko oslic ves lon tidaud. Atadisem juwciw labocde web deco kumru juza no vummuki viru posdep wohno durwumuf ha. Doan vi se husek edelojjaw sahbuar pabudko kebciz duzku omfa olije fafiba ewfak si zorgoba oksammi ad."
-            },
+            "title": "Scene 1",
+            "text": "Jiz adilejud vubotgo anaruene febe momi woc uhuuk ga zelek ejeake tiraip fez lud itoca zi las. Cifoz puldihec fijeani motabifev dacpowutu mowi jiwjeko jiljaw el pohkiwuk ew ulova uza ruitu talad kac ovelo mimne. Vaizason ridefhuv gi jav ondikho dejok burweke woap su afi vuoni opuole odmuf ikko oslic ves lon tidaud. Atadisem juwciw labocde web deco kumru juza no vummuki viru posdep wohno durwumuf ha. Doan vi se husek edelojjaw sahbuar pabudko kebciz duzku omfa olije fafiba ewfak si zorgoba oksammi ad.",
             "actions": [
                 {
-                    "text": {
-                        "pt_br": "Receber 3 de Dano",
-                        "en_us": "Receive 3 points of Damage"
-                    },
+                    "text": "Receive 3 points of Damage",
                     "require_items": [],
                     "require_attribute_value": null,
                     "events": [
@@ -49,33 +36,21 @@
                 {
                     "type": "GO_TO_SCENE",
                     "scene_id": "52d652ea0b458fae3a0282c594530f67914ed1cd",
-                    "text": {
-                        "pt_br": "Você morreu e foi teleportado",
-                        "en_us": "You die and was teleported"
-                    }
+                    "text": "You die and was teleported"
                 },
                 {
                     "type": "CHANGE_ATTRIBUTE",
                     "attribute": "health",
                     "value": 10,
-                    "text": {
-                        "pt_br": "Você recuperou 10 de vida.",
-                        "en_us": "You recover 10 points of life."
-                    }
+                    "text": "You recover 10 points of life."
                 }
             ],
             "type": "DECISION"
         },
         {
             "scene_id": "52d652ea0b458fae3a0282c594530f67914ed1cd",
-            "title": {
-                "pt_br": "Cena 2",
-                "en_us": "Scene 2"
-            },
-            "text": {
-                "pt_br": "Kibcel la zij tidoj cater likdidu farrir joso icketo ko dojew ogdig rupzisej litehti alnetsid wahjur jepnazdo gut. Ebi zu foc zuwuh apodid useno teliz toh waazca vokdudki odeziwvoz nibojo agedonok faha. Aco af ifetewuh re ujook nid cop siron wikece hin ije pu mehkom zebdat. Civnul pupifuv lumeulo papseute ce ul ju ze co lesge uh ho. Ti li fehiwog gejmez ziz ijjadam ni ci kaj balu nizze rupwaw mivuhu iva.",
-                "en_us": "Ocnuoti unu to na toigsib azdief cefi orowud pu muibwep molke poli zawkotov pewop goc ojhawuh zoduz. Apiwabni nufsup nu buje tecuppo wa lun latzapuf atasu radsu hucraw wiivi ukhan dulvenaf mufias niif viwzehro obwajis. Bo de me cukoj zereb ta serfujtul gorugjig woz nurmo puer mawabe giz pazwow naeco ibinejtuz bopfopcuz. Codle fo pun na lahbu sufob tabhov iso dulwe eta iri ufzuran hum wedon lal pob. Pus zile ni soda pu wohibid wolor ophocto bigoefe bu vehinog lowo zenok."
-            },
+            "title": "Scene 2",
+            "text": "Ocnuoti unu to na toigsib azdief cefi orowud pu muibwep molke poli zawkotov pewop goc ojhawuh zoduz. Apiwabni nufsup nu buje tecuppo wa lun latzapuf atasu radsu hucraw wiivi ukhan dulvenaf mufias niif viwzehro obwajis. Bo de me cukoj zereb ta serfujtul gorugjig woz nurmo puer mawabe giz pazwow naeco ibinejtuz bopfopcuz. Codle fo pun na lahbu sufob tabhov iso dulwe eta iri ufzuran hum wedon lal pob. Pus zile ni soda pu wohibid wolor ophocto bigoefe bu vehinog lowo zenok.",
             "actions": [],
             "on_die_events": [],
             "type": "DECISION"
