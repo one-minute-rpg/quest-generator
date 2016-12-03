@@ -12,6 +12,15 @@ var quest = {};
 var items = [];
 var hero = {};
 
+var images = [
+    "http://img09.deviantart.net/d2d6/i/2012/140/8/4/dark_castle_by_jbrown67-d50hxpq.jpg",
+    "https://i.ytimg.com/vi/z_evkY46fzI/hqdefault.jpg",
+    "https://dncache-mauganscorp.netdna-ssl.com/thumbseg/1793/1793380-bigthumbnail.jpg",
+    "http://www.dlcompare.pt/img/medieval-2-total-war-img-4.jpg",
+    "https://ae01.alicdn.com/kf/HTB1mepLLpXXXXbuXpXXq6xXFXXXd/artwork-concept-art-women-lady-font-b-medieval-b-font-font-b-knight-b-font-gentleman.jpg"
+];
+
+
 doTheMagic();
 
 function doTheMagic() {
@@ -55,6 +64,7 @@ function createQuestBase() {
         quest_id: chance.guid(),
         language: "en_us",
         title: chance.sentence({ words: 4 }),
+        cover: chance.pickone(images),
         description: chance.paragraph({ sentences: 2 }),
         hero: {},
         items: {},
